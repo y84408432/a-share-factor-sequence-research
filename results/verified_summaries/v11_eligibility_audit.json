@@ -1,0 +1,32 @@
+{
+  "panel_membership_stock_dates_2023_2024": 145200,
+  "exante_b30_candidates": 141462,
+  "selected_frozen_samples": 141415,
+  "excluded_due_to_future_label_nonfinite": 47,
+  "future_label_excluded_fraction": 0.0003322447017573624,
+  "pre_label_eligible_and_frozen_sample_exact_match": true,
+  "by_year": [
+    {
+      "year": 2023,
+      "membership_panel_rows": 72600,
+      "exante_b30_candidates": 71811,
+      "retained_label_finite": 71806,
+      "excluded_only_due_future_label_nonfinite": 5,
+      "future_label_excluded_fraction": 6.962721588614558e-05,
+      "panel_rows_missing_b30_or_known_label_horizon": 789
+    },
+    {
+      "year": 2024,
+      "membership_panel_rows": 72600,
+      "exante_b30_candidates": 69651,
+      "retained_label_finite": 69609,
+      "excluded_only_due_future_label_nonfinite": 42,
+      "future_label_excluded_fraction": 0.0006030064177111599,
+      "panel_rows_missing_b30_or_known_label_horizon": 2949
+    }
+  ],
+  "interpretation": "The label-finite requirement is determined using data through t+6. A nonzero excluded count demonstrates future-availability conditioning; zero does NOT certify an unbiased dataset, since Qlib dynamic extraction may already omit instruments or date-bars. No returned samples are filtered.",
+  "exante_candidates_outside_constituent_file": 0,
+  "frozen_cohort_is_future_label_conditioned": true,
+  "eligibility_status": "Future-label eligibility explicitly audited, but completely excluded stocks/bars cannot be detected from the membership-filtered V1 panel alone."
+}

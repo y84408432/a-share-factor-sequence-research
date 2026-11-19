@@ -1,0 +1,39 @@
+{
+  "status": "V12 FINAL once-only evaluation COMPLETE; no rerunning to reselect or tune",
+  "preflight_protocol_sha256": "008a94c05629991346131dff8ed0ca2a6e8d2ea0aef2a6621ca2341f66e02b25",
+  "n_models": 4,
+  "final_rows": 127760,
+  "final_days": 436,
+  "last_signal_date": "2026-10-23",
+  "2026_is_partial": true,
+  "models_untouched": [
+    "B1_Ridge",
+    "A30_Ridge",
+    "A30_LSTM",
+    "B30_LSTM"
+  ],
+  "returns": "hypothetical adjusted-open 5-trading-day holding results; NOT real executable PnL",
+  "cost_scenarios": "symmetric 0, 5, 10, 20 bp per traded side; NOT actual A-share fee schedule",
+  "five_sleeves_overlap": "do not treat the 5 phases as independent samples",
+  "source_quote_sha256": "46ac5394f9452be6fdef7adb7d9539cd50566d856343d2c96df3fd96ba5f8cb5",
+  "source_calendar_sha256": "0c2cdd656ad3f335d52a454c5049d6cecace20936378e9d9868dc78eeb2cb505",
+  "saved_outputs_sha256": {
+    "v12_model_summary.csv": "9604d133b7dea5c62a59ca62588038c1bcb007ecad46971b5fcb087f2028e9f4",
+    "v12_yearly_rankic.csv": "bf1fc96e5bd70d3409cb05cbf64b66c7fd5ba308440dd2540dc09aa1f13fa117",
+    "v12_model_seed_detail.csv": "0b07108d29f42cca3e3246122eb02f7a1b57a8ec305342e64bf900985b057ecc",
+    "v12_paired_rankic.json": "20c5ffaaf3442900d3579a757c6f25224320da8e007f4b9d7a5da30d91db6265",
+    "v12_quintile_summary.csv": "ad97e9896ed250eb9f222de2ecd5a98ca2799ab7ec6b4d5cde123e42fc19b41d",
+    "v12_quintile_daily.csv": "c9d4955b210d33e8491789582ed48796cea9b9d2192fd3934e207beb440a1407",
+    "v12_phase_summary.csv": "d5da8bb4e0aed045e8db5b3274e820f7996a18e65b33eabd8688b295f152fc33",
+    "v12_phase_cycles.csv": "cbee516dc89ef7452cdcb351bc1a6bb3e5f2a08d119ca3df84034fedcc5c07ef",
+    "v12_execution_risk_audit.json": "b719fa7ce5b3c9fa8f2fe9f45cb29bb2e9170541038543dd4d78b173a1ca6265",
+    "v12_final_predictions.csv.gz": "7d5184ffce41b7ba53ad5d63fffe482220be9188de73b4c9790846de011191f8"
+  },
+  "V11_limitations_retained": [
+    "Historical CSI300 constituent publication/PIT unverified",
+    "Future label availability causes selection conditioning",
+    "Adjusted opens not executable prices; ST/halts/limit lock/auction fills unverified",
+    "No actual lot/tax/fees/market impact modeling"
+  ],
+  "no_retuning_after_final": true
+}

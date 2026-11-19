@@ -1,0 +1,61 @@
+{
+  "status": "MECHANICAL_CHECKS_PASSED_WITH_UNVERIFIED_ASSUMPTIONS",
+  "hard_inconsistencies": [],
+  "source_nonstandard_identifiers_preserved_unmapped": [
+    {
+      "source_identifier": "SHT00018",
+      "raw_interval_rows_preserved": 7,
+      "source_date_intervals": [
+        {
+          "start": "2005-04-08",
+          "end": "2005-06-30"
+        },
+        {
+          "start": "2005-07-01",
+          "end": "2006-01-03"
+        },
+        {
+          "start": "2006-01-04",
+          "end": "2006-04-20"
+        },
+        {
+          "start": "2006-04-21",
+          "end": "2006-07-02"
+        },
+        {
+          "start": "2006-07-03",
+          "end": "2006-07-18"
+        },
+        {
+          "start": "2006-07-19",
+          "end": "2006-08-14"
+        },
+        {
+          "start": "2006-08-15",
+          "end": "2007-01-03"
+        }
+      ],
+      "earliest_start": "2005-04-08",
+      "latest_end": "2007-01-03",
+      "rows_touching_2023_2024": 0,
+      "active_in_2023_2024": false,
+      "meaning": "Unresolved source symbol; no inferred A-share security code"
+    }
+  ],
+  "historical_source_identifier_provenance_certified": false,
+  "independent_historical_CSI300_PIT_certified": false,
+  "no_future_eligibility_selection_certified": false,
+  "real_opening_auction_fills_certified": false,
+  "historical_China_A_share_trading_costs_certified": false,
+  "suitable_to_call_real_executable_backtest": false,
+  "suitable_to_call_hypothetical_signal_economics": true,
+  "strict_policy": "Do not select/refit models or revise V9/V10 outcomes using these audit findings. Report limitations even if mechanical checks pass.",
+  "future_work_if_genuine_execution_claim_required": [
+    "Independently source date-effective CSI300 constituent history with publication dates",
+    "Rebuild ex-ante active universe and separately quantify t+6 label/censoring loss",
+    "Acquire raw unadjusted OHLC, exact daily price-limit and ST/halt/auction data",
+    "Introduce reject/delay/forced exit simulation without pre-filtering on t+6 status",
+    "Model actual broker fees, stamps, lots, capacity and slippage with dated source"
+  ],
+  "final_period_2025_2026_performance": "NOT evaluated"
+}

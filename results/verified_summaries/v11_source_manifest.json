@@ -1,0 +1,30 @@
+{
+  "stage": "V11 locked 2023-2024 data-validity audit ONLY",
+  "source_files_sha256": {
+    "v1_frozen_factor_panel": "96061554b6e591d195052afc5168698ba18ce74c4721d7a66183a6fd73595ac8",
+    "v9_predictions": "6f4d19291744e675c54b1fa2ac6cec32445bec044e6518803979b10174298b99",
+    "v10_quote_snapshot": "cd34973e1ae1f1bdafd8cf0f0f846fede338b4ad24b0acbcc2f6641c9556a9c5",
+    "v10_calendar": "a4045a76bc6c29ca6d9d4655c588f03eb0e6f0959666aee88b6d74256ce8f119",
+    "csi300_intervals": "68c56a337cbfd7d2a5fe162df9080830f119d80eec2e10e03474131c9bcc352f",
+    "qlib_trading_calendar": "b971f7773686efd8fa40c29e6263c34e3fa0776ab17fe5a19a2dbb29dc8d53ca"
+  },
+  "source_protocols": {
+    "v9_preflight_cohort_sha256": "658a38984a3437cc11af89b52e137c5f8af51d89fe0b47dea223f3159baf97a3",
+    "v10_protocol_sha256": "c2194c1cbfaaf35d955e1125e4ef02d591ab1a6ff106ebe56c4e1d4d874dc1ae"
+  },
+  "outputs_sha256": {
+    "v11_membership_audit.json": "4e882ec1ef2c1ea919609b677d39e0dce3200615c2c33e84aab697dae36abd92",
+    "v11_eligibility_audit.json": "a253ece1a8907e344605e5240d3307266696703c4b5d196b3317cd5c07c4c624",
+    "v11_execution_risk_audit.json": "50a3229d29a6c541d9a90d5cd0ab28c9013dcc4d8475cf979c019d70c9764120",
+    "v11_verdict.json": "a51b93944a860f5a7d523bcc5210b3aefc49d43270b2853610e33b67f06ffbc8"
+  },
+  "models_preserved": [
+    "B1_Ridge",
+    "A30_Ridge",
+    "A30_LSTM",
+    "B30_LSTM"
+  ],
+  "market_period": "2023-2024",
+  "final_2025_2026_outcomes": "NOT evaluated",
+  "note": "No model fitting, inference, re-ranking, return computation, or changed V9/V10 results."
+}

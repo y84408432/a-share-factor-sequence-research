@@ -1,0 +1,10 @@
+# Direct dependencies used by the research source. NOT an exact lockfile.
+# Original environment: Python 3.11, macOS Apple Silicon, pyqlib 0.9.7.
+pyqlib==0.9.7
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+torch
+lightgbm

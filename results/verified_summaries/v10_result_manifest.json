@@ -1,0 +1,18 @@
+{
+  "status": "V10 exploratory HYPOTHETICAL adjusted-open economic diagnostic; NOT certified executable backtest",
+  "protocol_sha256": "c2194c1cbfaaf35d955e1125e4ef02d591ab1a6ff106ebe56c4e1d4d874dc1ae",
+  "n_models": 4,
+  "n_signal_dates": 478,
+  "n_quintile_summary_rows": 96,
+  "n_phase_summary_rows": 240,
+  "scenario_sensitivity": "Gross and symmetrical per-traded-side friction; not actual China A-share historical fees",
+  "final_holdout_2025_2026": "NOT accessed",
+  "files_sha256": {
+    "v10_quintile_summary.csv": "3f363336205d21b46534dde882b8567a8920b8ddb22fec5dcd626caacd7d3e83",
+    "v10_quintile_daily.csv": "6a1c6ea24096de74d3866d16ef2f3ea369c49e4364e3a53b2f7e137f69388281",
+    "v10_phase_summary.csv": "459742e301567a1673cd95dcf7fa0405df0c3879d9bca06588b214cdd5c8005b",
+    "v10_phase_cycles.csv": "201b1a6b25a2ce7494735c0d930084967ffef3369837183939ac978db1abdd5f",
+    "v10_execution_audit.json": "dd3142758e30750ce802f0f615e6f6e3baab2bbb775386c6a39a40391357c967"
+  },
+  "interpretation_warning": "Five-day overlapping daily signals require HAC; five staggered phases share market outcomes. No inferred causal profitability."
+}

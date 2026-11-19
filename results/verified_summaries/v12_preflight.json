@@ -1,0 +1,190 @@
+{
+  "status": "PRE-EVALUATION LOCKED; no 2025-2026 RankIC / P&L calculated",
+  "protocol_sha256": "008a94c05629991346131dff8ed0ca2a6e8d2ea0aef2a6621ca2341f66e02b25",
+  "source_model_registry": {
+    "B1_Ridge": [
+      {
+        "path": "output/v4_hypothesis/ridge_1_model.joblib",
+        "sha256": "4240d26b5fb4c8e84556b35b21a18e65a1a4ffe79eec941f13e5f050bbe92ddb"
+      }
+    ],
+    "A30_Ridge": [
+      {
+        "path": "output/v8_a30_controls/checkpoints/ridge_A30_flat.pt",
+        "sha256": "ef86ec43be4ff8794eaede89a76f0c20ef52e87d945a02b071240584ed002572"
+      }
+    ],
+    "A30_LSTM": [
+      {
+        "path": "output/v7_representations/checkpoints/a_w30_s20261115.pt",
+        "sha256": "8195443ae9711fd8b1216f2fddae4f922704b3b32d3459b33fe0f82818769c08"
+      },
+      {
+        "path": "output/v7_representations/checkpoints/a_w30_s20261116.pt",
+        "sha256": "4f70290d90b3041146d3988d97b7926a106b11160221b11ce812afecd2211dd3"
+      },
+      {
+        "path": "output/v7_representations/checkpoints/a_w30_s20261117.pt",
+        "sha256": "a81c621aac9d038b9e890b836d7e702622c96e00bed4eec24d3b0d2d24f72525"
+      }
+    ],
+    "B30_LSTM": [
+      {
+        "path": "output/v7_representations/checkpoints/b_w30_s20261115.pt",
+        "sha256": "8cb21d6ee61c6dcd3a51563b280ea8cb4cd07f911ff391b7f097b8fe7f9329fb"
+      },
+      {
+        "path": "output/v7_representations/checkpoints/b_w30_s20261116.pt",
+        "sha256": "628d7854626bca9f98cdbffa093d064142e84c9ddc317c2b3e33ce4a72b04b13"
+      },
+      {
+        "path": "output/v7_representations/checkpoints/b_w30_s20261117.pt",
+        "sha256": "1f5ac928cea29cef93e1bf9b34a3f4b2e01a3e13b97a828aca49b85243bad94b"
+      }
+    ]
+  },
+  "source_v9_protocol": "f47b14d2f04bbebd6df86784c30ce7d5db7d446e44af696ceaa46e8633ab037e",
+  "source_v10_protocol": "c2194c1cbfaaf35d955e1125e4ef02d591ab1a6ff106ebe56c4e1d4d874dc1ae",
+  "source_v11_verdict": "MECHANICAL_CHECKS_PASSED_WITH_UNVERIFIED_ASSUMPTIONS",
+  "source_qlib_instruments_sha256": "68c56a337cbfd7d2a5fe162df9080830f119d80eec2e10e03474131c9bcc352f",
+  "source_qlib_calendar_sha256": "b971f7773686efd8fa40c29e6263c34e3fa0776ab17fe5a19a2dbb29dc8d53ca",
+  "cohort_fingerprint": "597bb2247b20365606e267d1a3ceac73ad1a66daad6ff711bc64261818951524",
+  "final_date_range": {
+    "earliest": "2025-01-02",
+    "latest": "2026-10-23",
+    "n_days": 436,
+    "n_rows": 127760
+  },
+  "B_eligible30_n": 127760,
+  "A_B_common_n": 127760,
+  "A_exclusions": 0,
+  "A_overlap_2024_max_error": 0.0,
+  "A_B_overlap_checks": {
+    "A_RET1": {
+      "compared": 127760,
+      "max_abs_diff": 0.0
+    },
+    "A_INTRADAY": {
+      "compared": 127760,
+      "max_abs_diff": 0.0
+    },
+    "A_RANGE": {
+      "compared": 127760,
+      "max_abs_diff": 0.0
+    },
+    "A_VWAP_DEV": {
+      "compared": 127760,
+      "max_abs_diff": 0.0
+    }
+  },
+  "2025_2026_future_availability_diagnostic": {
+    "exante_B30_candidates": 127888,
+    "B30_label_available": 127760,
+    "excluded_due_to_future_label_nonfinite": 128,
+    "fraction_excluded": 0.0010008757662955086,
+    "common_A_B_label_eligible": 127760,
+    "A_missing_window_exclusions": 0,
+    "by_signal_year": {
+      "2025": {
+        "candidate_rows": 71331,
+        "missing_future_labels": 92,
+        "missing_future_label_fraction": 0.0012897618146387967
+      },
+      "2026": {
+        "candidate_rows": 56557,
+        "missing_future_labels": 36,
+        "missing_future_label_fraction": 0.0006365259826369857
+      }
+    },
+    "warning": "Uses V1 existing eligibility flags only, no final return magnitudes. Future target observability remains a selection condition; membership-filtered panel may miss omitted names/bars."
+  },
+  "provider_membership_snapshots": [
+    {
+      "date": "2025-01-02",
+      "n_local": 300,
+      "n_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2025-06-19",
+      "n_local": 300,
+      "n_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2025-11-27",
+      "n_local": 300,
+      "n_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2026-05-15",
+      "n_local": 300,
+      "n_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2026-10-23",
+      "n_local": 300,
+      "n_provider": 300,
+      "symmetric_difference": 0
+    }
+  ],
+  "source_anomalies_preserved": [
+    {
+      "source_identifier": "SHT00018",
+      "raw_interval_rows_preserved": 7,
+      "source_date_intervals": [
+        {
+          "start": "2005-04-08",
+          "end": "2005-06-30"
+        },
+        {
+          "start": "2005-07-01",
+          "end": "2006-01-03"
+        },
+        {
+          "start": "2006-01-04",
+          "end": "2006-04-20"
+        },
+        {
+          "start": "2006-04-21",
+          "end": "2006-07-02"
+        },
+        {
+          "start": "2006-07-03",
+          "end": "2006-07-18"
+        },
+        {
+          "start": "2006-07-19",
+          "end": "2006-08-14"
+        },
+        {
+          "start": "2006-08-15",
+          "end": "2007-01-03"
+        }
+      ],
+      "earliest_start": "2005-04-08",
+      "latest_end": "2007-01-03",
+      "rows_touching_2023_2024": 0,
+      "active_in_2023_2024": false,
+      "meaning": "Unresolved source symbol; no inferred A-share security code"
+    }
+  ],
+  "A_query_start": "2024-10-01",
+  "A_query_end": "2026-11-02",
+  "A_cache_sha256": "20641d18e7a636b9470ee029c3f58434481298118af6ed6aa95d582d8e89c1a2",
+  "cohort_rows_sha256": "c0b6494a84c57938156f8a5930c092251576a184a1ca70fa20e14cbd8e556bb0",
+  "label_file_identity": {
+    "size_bytes": 3446408,
+    "mtime_ns": 1794742650377786738
+  },
+  "B_feature_cache_sha256": "5921c5ff443b249628676bda95c3eb120fcb72c497b79685df58ef54ad1e8ee8",
+  "V2_index_file_sha256": "23ed4797b1dd74a50cdceb413e953e48a139737a8d9dc2dae946492266f6bd0f",
+  "statistical_knowledge": "NONE in this V12 audit. Ex-ante constraints include target finite flags from frozen V1/V2.",
+  "limitations_inherited_from_V11": {
+    "PIT_independently_certified": false,
+    "actual_trade_executions_certified": false,
+    "future_label_selection_proven_unbiased": false
+  }
+}

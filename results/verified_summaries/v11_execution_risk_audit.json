@@ -1,0 +1,153 @@
+{
+  "period": "2023-2024",
+  "signals": 141415,
+  "frozen_sample_all": {
+    "n": 141415,
+    "entry_gap_up_9_8pct": {
+      "count": 298,
+      "rate": 0.0021072729201286992
+    },
+    "entry_gap_down_9_8pct": {
+      "count": 17,
+      "rate": 0.00012021355584626807
+    },
+    "entry_gap_abs_19_8pct": {
+      "count": 40,
+      "rate": 0.00028285542552063076
+    },
+    "exit_gap_abs_9_8pct": {
+      "count": 315,
+      "rate": 0.002227486475974967
+    },
+    "entry_quote_invalid": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "exit_quote_invalid": {
+      "count": 0,
+      "rate": 0.0
+    }
+  },
+  "frozen_Q5_by_model": {
+    "B1_Ridge": {
+      "n": 28115,
+      "entry_gap_up_9_8pct": {
+        "count": 39,
+        "rate": 0.001387159879068113
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 4,
+        "rate": 0.00014227280810955007
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 64,
+        "rate": 0.002276364929752801
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "A30_Ridge": {
+      "n": 28115,
+      "entry_gap_up_9_8pct": {
+        "count": 51,
+        "rate": 0.0018139783033967634
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 3,
+        "rate": 0.00010670460608216255
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 19,
+        "rate": 0.0006757958385203628
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 65,
+        "rate": 0.0023119331317801887
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "A30_LSTM": {
+      "n": 28115,
+      "entry_gap_up_9_8pct": {
+        "count": 66,
+        "rate": 0.002347501333807576
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 6,
+        "rate": 0.0002134092121643251
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 6,
+        "rate": 0.0002134092121643251
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 72,
+        "rate": 0.002560910545971901
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "B30_LSTM": {
+      "n": 28115,
+      "entry_gap_up_9_8pct": {
+        "count": 58,
+        "rate": 0.002062955717588476
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 6,
+        "rate": 0.0002134092121643251
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 3,
+        "rate": 0.00010670460608216255
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 75,
+        "rate": 0.0026676151520540637
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    }
+  },
+  "factor_entry_exit_nonpositive_or_nan": 0,
+  "factor_change_ge_0_5pct_between_entry_exit_count": 2798,
+  "instruments_with_up_limit_bin_present": 0,
+  "instruments_with_down_limit_bin_present": 0,
+  "instruments_checked_for_limit_field": 335,
+  "large_adjusted_open_gaps_are_only_proxies": true,
+  "no_actual_limit_up_down_flags_verified": true,
+  "volume_positive_does_not_prove_auction_execution": true,
+  "unadjusted_price_reconstruction_not_certified": true,
+  "rejected_trades_or_forced_holding_costs_not_simulated": true,
+  "no_hindsight_filter_or_recomputed_return": true,
+  "interpretation": "Q5 signals are counted, not excluded. Future t+6 volume and exit quote are audit-only; no ex-ante tradability rule may depend on them. Auction fill, limit-lock, ST status, minimum lot, market impact and fee schedule require independent data."
+}

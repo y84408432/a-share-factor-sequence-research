@@ -1,0 +1,17 @@
+{
+  "n_signals": 141415,
+  "entry_and_exit_open_nonmissing_positive": 141415,
+  "entry_and_exit_volume_positive": 141415,
+  "missing_or_invalid_entry_open": 0,
+  "missing_or_invalid_exit_open": 0,
+  "entry_volume_nonpositive_or_missing": 0,
+  "exit_volume_nonpositive_or_missing": 0,
+  "label_quote_comparable_count": 141415,
+  "label_quote_mismatch_over_tolerance": 0,
+  "label_quote_max_abs_difference": 8.744861013099126e-08,
+  "entry_gap_proxy_ge_9_8pct_count": 315,
+  "entry_gap_proxy_ge_19_8pct_count": 40,
+  "entry_gap_proxy_definition": "abs(Qlib adjusted open(t+1) / adjusted close(t) - 1), NOT an exchange limit flag",
+  "adjusted_price_note": "Qlib $open/$close are adjusted; $factor allows indicative unadjusted prices only.",
+  "entry_or_exit_nonpositive_factor": 0
+}

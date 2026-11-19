@@ -1,0 +1,42 @@
+# Local environment / secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Private market data, model checkpoints, intermediate features and predictions
+output/
+data/
+models/
+checkpoints/
+.qlib/
+.local_artifacts/
+private/
+private_*/
+*.pkl
+*.pkl.gz
+*.joblib
+*.pt
+*.pth
+*.npy
+*.npz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.bin
+
+# Research logs and private exports
+*.log
+run_v*.log
+*.zip
+requirements-lock-*.txt
+archive_metadata/LOCAL_EXPORT_MANIFEST.json

@@ -1,0 +1,165 @@
+{
+  "period": "2025-2026_PARTIAL",
+  "n_signals": 127760,
+  "all_samples": {
+    "n": 127760,
+    "entry_gap_up_9_8pct": {
+      "count": 86,
+      "rate": 0.0006731371321227302
+    },
+    "entry_gap_down_9_8pct": {
+      "count": 43,
+      "rate": 0.0003365685660613651
+    },
+    "entry_gap_abs_19_8pct": {
+      "count": 3,
+      "rate": 2.34815278647464e-05
+    },
+    "exit_gap_abs_9_8pct": {
+      "count": 133,
+      "rate": 0.0010410144020037572
+    },
+    "entry_quote_invalid": {
+      "count": 0,
+      "rate": 0.0
+    },
+    "exit_quote_invalid": {
+      "count": 0,
+      "rate": 0.0
+    }
+  },
+  "Q5_by_model": {
+    "B1_Ridge": {
+      "n": 25389,
+      "entry_gap_up_9_8pct": {
+        "count": 30,
+        "rate": 0.0011816140848398913
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 16,
+        "rate": 0.0006301941785812754
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 47,
+        "rate": 0.0018511953995824964
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "A30_Ridge": {
+      "n": 25389,
+      "entry_gap_up_9_8pct": {
+        "count": 25,
+        "rate": 0.0009846784040332427
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 16,
+        "rate": 0.0006301941785812754
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 1,
+        "rate": 3.938713616132971e-05
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 44,
+        "rate": 0.0017330339910985072
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "A30_LSTM": {
+      "n": 25389,
+      "entry_gap_up_9_8pct": {
+        "count": 38,
+        "rate": 0.001496711174130529
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 12,
+        "rate": 0.0004726456339359565
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 1,
+        "rate": 3.938713616132971e-05
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 46,
+        "rate": 0.0018118082634211666
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    },
+    "B30_LSTM": {
+      "n": 25389,
+      "entry_gap_up_9_8pct": {
+        "count": 28,
+        "rate": 0.0011028398125172319
+      },
+      "entry_gap_down_9_8pct": {
+        "count": 16,
+        "rate": 0.0006301941785812754
+      },
+      "entry_gap_abs_19_8pct": {
+        "count": 1,
+        "rate": 3.938713616132971e-05
+      },
+      "exit_gap_abs_9_8pct": {
+        "count": 56,
+        "rate": 0.0022056796250344637
+      },
+      "entry_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      },
+      "exit_quote_invalid": {
+        "count": 0,
+        "rate": 0.0
+      }
+    }
+  },
+  "open_quote_consistency": {
+    "n_signals": 127760,
+    "entry_and_exit_open_nonmissing_positive": 127760,
+    "entry_and_exit_volume_positive": 127760,
+    "missing_or_invalid_entry_open": 0,
+    "missing_or_invalid_exit_open": 0,
+    "entry_volume_nonpositive_or_missing": 0,
+    "exit_volume_nonpositive_or_missing": 0,
+    "label_quote_comparable_count": 127760,
+    "label_quote_mismatch_over_tolerance": 0,
+    "label_quote_max_abs_difference": 5.960223670165021e-08,
+    "entry_gap_proxy_ge_9_8pct_count": 129,
+    "entry_gap_proxy_ge_19_8pct_count": 3,
+    "entry_gap_proxy_definition": "abs(Qlib adjusted open(t+1) / adjusted close(t) - 1), NOT an exchange limit flag",
+    "adjusted_price_note": "Qlib $open/$close are adjusted; $factor allows indicative unadjusted prices only.",
+    "entry_or_exit_nonpositive_factor": 0
+  },
+  "2026_incomplete_year": true,
+  "price_adjustment": "Qlib adjusted $open; not exchange executable prints",
+  "independent_price_limit_ST_halt_flags_available": false,
+  "real_auction_fill_certified": false,
+  "actual_historical_fees_certified": false,
+  "future_exit_quote_is_not_an_exante_eligibility_filter": true,
+  "same_V11_data_limitations_apply": true
+}

@@ -1,0 +1,34 @@
+{
+  "protocol_sha256": "008a94c05629991346131dff8ed0ca2a6e8d2ea0aef2a6621ca2341f66e02b25",
+  "n_unique_days": 436,
+  "primary_predeclared_comparisons": {
+    "A30_LSTM_minus_A30_Ridge": {
+      "n_days": 436,
+      "mean": 0.024629604774431255,
+      "se_hac": 0.010682244928071506,
+      "ci95": [
+        0.003692404715411105,
+        0.04556680483345141
+      ]
+    },
+    "A30_LSTM_minus_B30_LSTM": {
+      "n_days": 436,
+      "mean": 0.0061147950463247055,
+      "se_hac": 0.009966633422478074,
+      "ci95": [
+        -0.01341980646173232,
+        0.025649396554381733
+      ]
+    },
+    "B1_Ridge_minus_A30_LSTM": {
+      "n_days": 436,
+      "mean": 0.018170197528267134,
+      "se_hac": 0.012215288900473308,
+      "ci95": [
+        -0.00577176871666055,
+        0.04211216377319482
+      ]
+    }
+  },
+  "inference_warning": "Date-wise HAC 10-lag exploratory; model selection preceded final evaluation. Prior model-development choices are not evidence of universal superiority."
+}

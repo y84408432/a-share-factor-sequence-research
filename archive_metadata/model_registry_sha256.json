@@ -1,0 +1,42 @@
+{
+  "B1_Ridge": [
+    {
+      "path": "output/v4_hypothesis/ridge_1_model.joblib",
+      "sha256": "4240d26b5fb4c8e84556b35b21a18e65a1a4ffe79eec941f13e5f050bbe92ddb"
+    }
+  ],
+  "A30_Ridge": [
+    {
+      "path": "output/v8_a30_controls/checkpoints/ridge_A30_flat.pt",
+      "sha256": "ef86ec43be4ff8794eaede89a76f0c20ef52e87d945a02b071240584ed002572"
+    }
+  ],
+  "A30_LSTM": [
+    {
+      "path": "output/v7_representations/checkpoints/a_w30_s20261115.pt",
+      "sha256": "8195443ae9711fd8b1216f2fddae4f922704b3b32d3459b33fe0f82818769c08"
+    },
+    {
+      "path": "output/v7_representations/checkpoints/a_w30_s20261116.pt",
+      "sha256": "4f70290d90b3041146d3988d97b7926a106b11160221b11ce812afecd2211dd3"
+    },
+    {
+      "path": "output/v7_representations/checkpoints/a_w30_s20261117.pt",
+      "sha256": "a81c621aac9d038b9e890b836d7e702622c96e00bed4eec24d3b0d2d24f72525"
+    }
+  ],
+  "B30_LSTM": [
+    {
+      "path": "output/v7_representations/checkpoints/b_w30_s20261115.pt",
+      "sha256": "8cb21d6ee61c6dcd3a51563b280ea8cb4cd07f911ff391b7f097b8fe7f9329fb"
+    },
+    {
+      "path": "output/v7_representations/checkpoints/b_w30_s20261116.pt",
+      "sha256": "628d7854626bca9f98cdbffa093d064142e84c9ddc317c2b3e33ce4a72b04b13"
+    },
+    {
+      "path": "output/v7_representations/checkpoints/b_w30_s20261117.pt",
+      "sha256": "1f5ac928cea29cef93e1bf9b34a3f4b2e01a3e13b97a828aca49b85243bad94b"
+    }
+  ]
+}

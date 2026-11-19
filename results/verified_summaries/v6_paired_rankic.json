@@ -1,0 +1,66 @@
+{
+  "protocol_sha256": "ff69a70cc1a2d17cb20526c773ade29ea51cac3c06802f64450710168ce2a263",
+  "comparisons": {
+    "C_w10_minus_original": {
+      "daily_mean_over_seed_and_repetitions_hac": {
+        "n_days": 479,
+        "mean": -0.0078429207623376,
+        "se_hac": 0.00333768086197755,
+        "ci95": [
+          -0.014384775251813598,
+          -0.0013010662728616031
+        ]
+      },
+      "original_rankic_mean": 0.016786489156269666,
+      "modified_rankic_mean": 0.008943568393932066,
+      "n_seeds": 3,
+      "permutation_repeats": 3
+    },
+    "D_w10_minus_original": {
+      "daily_mean_over_seed_and_repetitions_hac": {
+        "n_days": 479,
+        "mean": -0.0055258922320271546,
+        "se_hac": 0.0031073445953861815,
+        "ci95": [
+          -0.01161628763898407,
+          0.0005645031749297608
+        ]
+      },
+      "original_rankic_mean": 0.016786489156269666,
+      "modified_rankic_mean": 0.011260596924242515,
+      "n_seeds": 3,
+      "permutation_repeats": 1
+    },
+    "C_w30_minus_original": {
+      "daily_mean_over_seed_and_repetitions_hac": {
+        "n_days": 479,
+        "mean": -0.00937679471582463,
+        "se_hac": 0.004453437737966095,
+        "ci95": [
+          -0.018105532682238176,
+          -0.0006480567494110846
+        ]
+      },
+      "original_rankic_mean": 0.014465609974187924,
+      "modified_rankic_mean": 0.005088815258363298,
+      "n_seeds": 3,
+      "permutation_repeats": 3
+    },
+    "D_w30_minus_original": {
+      "daily_mean_over_seed_and_repetitions_hac": {
+        "n_days": 479,
+        "mean": 0.008510343474231123,
+        "se_hac": 0.005773514254639772,
+        "ci95": [
+          -0.002805744464862831,
+          0.019826431413325078
+        ]
+      },
+      "original_rankic_mean": 0.014465609974187924,
+      "modified_rankic_mean": 0.02297595344841905,
+      "n_seeds": 3,
+      "permutation_repeats": 1
+    }
+  },
+  "caveat": "VALID-only diagnostics; date-wise HAC 10 lags; not independent holdout inference"
+}

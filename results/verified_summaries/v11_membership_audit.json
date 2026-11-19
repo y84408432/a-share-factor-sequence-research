@@ -1,0 +1,104 @@
+{
+  "analysis_period": "2023-2024 only",
+  "source_file": "~/.qlib/qlib_data/cn_data/instruments/csi300.txt",
+  "source_sha256": "68c56a337cbfd7d2a5fe162df9080830f119d80eec2e10e03474131c9bcc352f",
+  "source_intervals": {
+    "raw_interval_count": 16198,
+    "header_rows_recognized": 0,
+    "nonstandard_source_identifiers": [
+      {
+        "source_identifier": "SHT00018",
+        "raw_interval_rows_preserved": 7,
+        "source_date_intervals": [
+          {
+            "start": "2005-04-08",
+            "end": "2005-06-30"
+          },
+          {
+            "start": "2005-07-01",
+            "end": "2006-01-03"
+          },
+          {
+            "start": "2006-01-04",
+            "end": "2006-04-20"
+          },
+          {
+            "start": "2006-04-21",
+            "end": "2006-07-02"
+          },
+          {
+            "start": "2006-07-03",
+            "end": "2006-07-18"
+          },
+          {
+            "start": "2006-07-19",
+            "end": "2006-08-14"
+          },
+          {
+            "start": "2006-08-15",
+            "end": "2007-01-03"
+          }
+        ],
+        "earliest_start": "2005-04-08",
+        "latest_end": "2007-01-03",
+        "rows_touching_2023_2024": 0,
+        "active_in_2023_2024": false,
+        "meaning": "Unresolved source symbol; no inferred A-share security code"
+      }
+    ],
+    "nonstandard_source_rows_preserved": 7,
+    "nonstandard_source_mapping_certified": false,
+    "noncanonical_codes_normalized": 0,
+    "interval_count_through_2024": 15298,
+    "coalesced_interval_count": 15298,
+    "overlap_records": 0,
+    "stock_count_through_2024": 929
+  },
+  "unresolved_nonstandard_codes_active_in_evaluation": [],
+  "frozen_samples": 141415,
+  "selected_signal_rows_outside_file_membership": 0,
+  "selected_signal_rows_in_membership": 141415,
+  "selected_member_interval_age_lt_30_trading_sessions": 33006,
+  "selected_member_interval_age_lt_60_trading_sessions": 68843,
+  "selected_member_interval_age_sessions_min": 0,
+  "frozen_signal_dates": 478,
+  "active_constituent_count_min": 300,
+  "active_constituent_count_median": 300.0,
+  "active_constituent_count_max": 300,
+  "active_constituent_days_outside_250_to_350": 0,
+  "qlib_provider_file_snapshots": [
+    {
+      "date": "2023-01-03",
+      "in_local_intervals": 300,
+      "via_qlib_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2023-07-04",
+      "in_local_intervals": 300,
+      "via_qlib_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2023-12-27",
+      "in_local_intervals": 300,
+      "via_qlib_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2024-06-28",
+      "in_local_intervals": 300,
+      "via_qlib_provider": 300,
+      "symmetric_difference": 0
+    },
+    {
+      "date": "2024-12-23",
+      "in_local_intervals": 300,
+      "via_qlib_provider": 300,
+      "symmetric_difference": 0
+    }
+  ],
+  "provider_file_symmetric_difference_total": 0,
+  "provider_asof_provenance": "UNVERIFIED: local effective intervals and Qlib API share a dataset. Source revision history, announcement timing and historical as-of publication must be checked independently.",
+  "conclusion_type": "mechanical consistency only; NOT an independent PIT certification"
+}
